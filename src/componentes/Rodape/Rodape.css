@@ -1,0 +1,46 @@
+.footer-container {
+  background-color: #6278F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.social-icons img {
+  display: none;
+  width: 32px;
+  height: 35px;
+}
+
+.logo {
+  width: 166px;
+  height: 63px;
+}
+
+.footer-credit p, .footer-credit p a {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.footer-credit p a {
+  text-decoration: none;
+}
+
+.footer-credit p a:hover {
+  text-decoration: underline;
+}
+
+@media(min-width: 600px){
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .social-icons {
+    display: flex;
+    gap: 16px;
+  }
+  .social-icons img {
+    display: flex;
+  }
+}
