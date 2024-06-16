@@ -1,12 +1,14 @@
 .campo {
     margin: 24px 0;
     width: 100%;
+    font-family: "Montserrat", sans-serif;
 }
 
 .campo label {
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .campo input {
@@ -15,6 +17,7 @@
     width: 100%;
     border: none;
     font-size: 24px;
+    font-family: "Montserrat", sans-serif;
     padding: 24px 0;
     box-sizing: border-box;
 }

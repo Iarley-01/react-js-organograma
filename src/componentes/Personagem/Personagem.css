@@ -1,6 +1,7 @@
 .personagem {
     position: relative;
     width: 280px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .personagem .cabecalho {
@@ -33,6 +34,7 @@
 
 .personagem .rodape h5 {
     font-size: 18px;
+    font-weight: 500;
     line-height: 22px;
     color: #212121;
     padding: 0 16px;

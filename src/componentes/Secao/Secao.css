@@ -6,6 +6,8 @@
 
 .secao h3 {
     font-size: 32px;
+    font-family: 'Prata', serif;
+    font-weight: 400;
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;
