@@ -19,7 +19,7 @@ const Personagem = ({ corDeFundo, personagem, aoDeletar, aoFavoritar }) => {
         </div>
         <div className='rodape'>
             <h4>{personagem.nome}</h4>
-            <h5>{personagem.cargo}</h5>
+            <h5>{personagem.instrumento}</h5>
             <div className='favoritar'>
               {personagem.favorito 
               ? <AiFillHeart color='#ff0000' {...propsFavorito}/> 

@@ -58,7 +58,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Kumiko Oumae',
-      cargo: 'Eufonio',
+      instrumento: 'Eufonio',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/6/68/Kumiko_Oumae.jpg',
       secao: secoes[0].nome
     },
@@ -66,7 +66,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Asuka Tanaka',
-      cargo: 'Eufonio',
+      instrumento: 'Eufonio',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/b/bb/Asuka_Tanaka.jpg',
       secao: secoes[0].nome
     },
@@ -74,14 +74,14 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Natsuki Nakagawa',
-      cargo: 'Eufonio',
+      instrumento: 'Eufonio',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/d/d6/Natsuki_Nakagawa.jpg',
       secao: secoes[0].nome
     },
     {
       id: uuidv4(),
       nome: 'Sapphire Kawashima',
-      cargo: 'Contrabaixo',
+      instrumento: 'Contrabaixo',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/f/f2/Sapphire_Kawashima.jpg',
       secao: secoes[0].nome
     },
@@ -89,14 +89,14 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Mizore Yoroizuka',
-      cargo: 'Oboé',
+      instrumento: 'Oboé',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/5/5e/Mizore_Yoroizuka.jpg',
       secao: secoes[1].nome
     },
     {
       id: uuidv4(),
       nome: 'Raina Kitamura',
-      cargo: 'Baixão',
+      instrumento: 'Baixão',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/1/19/Raina_Kitamura.jpg',
       secao: secoes[1].nome
     },
@@ -104,7 +104,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Mikino Oka',
-      cargo: 'Baixão',
+      instrumento: 'Baixão',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/b/b6/Mikino_Oka.jpg',
       secao: secoes[1].nome
     },
@@ -112,7 +112,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Hideri Noguchi',
-      cargo: '1⁰ Trombone',
+      instrumento: '1⁰ Trombone',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/2/2f/Hideri_Noguchi.jpg',
       secao: secoes[2].nome
     },
@@ -120,7 +120,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Maki Akamatsu',
-      cargo: '1⁰ Trombone',
+      instrumento: '1⁰ Trombone',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/7/70/Maki_Akamatsu_Character_Intro.jpg',
       secao: secoes[2].nome
     },
@@ -128,7 +128,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Mei Taura',
-      cargo: '2⁰ Trombone',
+      instrumento: '2⁰ Trombone',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/c/cc/Mei_Taura.jpg',
       secao: secoes[2].nome
     },
@@ -136,14 +136,14 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Shuuichi Tsukamoto',
-      cargo: '2⁰ Trombone',
+      instrumento: '2⁰ Trombone',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/8/82/Shuuichi_Tsukamoto.jpg',
       secao: secoes[2].nome
     },
     {
       id: uuidv4(),
       nome: 'Juri Sawada',
-      cargo: '1ª Trompa',
+      instrumento: '1ª Trompa',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/0/0f/Juri_Sawada.jpg',
       secao: secoes[3].nome
     },
@@ -151,7 +151,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Hiro Kahashi',
-      cargo: '2ª Trompa',
+      instrumento: '2ª Trompa',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/0/02/Hiro_Kahashi1.jpg',
       secao: secoes[3].nome
     },
@@ -159,14 +159,14 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Michiyo Morimoto',
-      cargo: '3ª Trompa',
+      instrumento: '3ª Trompa',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/a/ab/Michiyo_Morimoto_Character_Intro.jpg',
       secao: secoes[3].nome
     },
     {
       id: uuidv4(),
       nome: 'Miru Kishibe',
-      cargo: '4ª Trompa',
+      instrumento: '4ª Trompa',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/5/54/Miru_Kishibe.jpg',
       secao: secoes[3].nome
     },
@@ -174,14 +174,14 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Kaori Nakaseko',
-      cargo: '1⁰ Trompete',
+      instrumento: '1⁰ Trompete',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/a/aa/Kaori_Nakaseko.jpg',
       secao: secoes[4].nome
     },
     {
       id: uuidv4(),
       nome: 'Reina Kousaka',
-      cargo: '1⁰ Trompete',
+      instrumento: '1⁰ Trompete',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/7/70/Reina_Kousaka.jpg',
       secao: secoes[4].nome
     },
@@ -189,14 +189,14 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Yuuko Yoshikawa',
-      cargo: '2⁰ Trompete',
+      instrumento: '2⁰ Trompete',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/5/50/Yuuko_Yoshikawa.jpg',
       secao: secoes[4].nome
     },
     {
       id: uuidv4(),
       nome: 'Sana Kasano',
-      cargo: '3⁰ Trompete',
+      instrumento: '3⁰ Trompete',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/f/fe/Sana_Kasano.jpg',
       secao: secoes[4].nome
     },
@@ -204,7 +204,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Haruka Ogasawara',
-      cargo: 'Saxofone Barítono',
+      instrumento: 'Saxofone Barítono',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/b/b1/Haruka_Ogasawara.jpg',
       secao: secoes[5].nome
     },
@@ -212,7 +212,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Kiriko Miya',
-      cargo: '1⁰ Alto Saxofone',
+      instrumento: '1⁰ Alto Saxofone',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/f/f7/Kiriko.jpg',
       secao: secoes[5].nome
     },
@@ -220,7 +220,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Raimu Okamoto',
-      cargo: '1⁰ Alto Saxofone',
+      instrumento: '1⁰ Alto Saxofone',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/7/7b/Raimu_Okamoto.jpg',
       secao: secoes[5].nome
     },
@@ -228,7 +228,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Chikai Maki',
-      cargo: '2⁰ Alto Saxofone',
+      instrumento: '2⁰ Alto Saxofone',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/e/ef/Chikai_Maki.jpg',
       secao: secoes[5].nome
     },

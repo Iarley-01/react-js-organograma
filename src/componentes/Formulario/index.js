@@ -7,7 +7,7 @@ import './Formulario.css'
 const Formulario = ({ aoCadastrar, secoes, aoCriarSecao }) => {
   
     const [nome, setNome] = useState('')
-    const [cargo, setCargo] = useState('')
+    const [instrumento, setInstrumento] = useState('')
     const [imagem, setImagem] = useState('')
     const [secao, setTime] = useState('')
     const [nomeTime, setNomeTime] = useState('')
@@ -17,12 +17,12 @@ const Formulario = ({ aoCadastrar, secoes, aoCriarSecao }) => {
         evento.preventDefault()
         aoCadastrar({
             nome,
-            cargo,
+            instrumento,
             imagem,
             secao
         })
         setNome('')
-        setCargo('')
+        setInstrumento('')
         setImagem('')
         setTime('')
     }
@@ -30,7 +30,7 @@ const Formulario = ({ aoCadastrar, secoes, aoCriarSecao }) => {
     return (
         <section className="formulario">
             <form onSubmit={aoSalvar}>
-                <h2>Preencha os dados para criar o card do colaborador</h2>
+                <h2>Preencha os dados para criar o card do personagem</h2>
                 <Campo 
                     obrigatorio={true}
                     label="Nome"
@@ -40,10 +40,10 @@ const Formulario = ({ aoCadastrar, secoes, aoCriarSecao }) => {
                 />
                 <Campo
                     obrigatorio={true}
-                    label="Cargo"
-                    placeholder="Digite seu cargo" 
-                    valor={cargo}
-                    aoAlterado={valor => setCargo(valor)}
+                    label="Instrumento"
+                    placeholder="Digite seu instrumento" 
+                    valor={instrumento}
+                    aoAlterado={valor => setInstrumento(valor)}
                 />
                 <Campo
                     label="Imagem"
@@ -60,7 +60,7 @@ const Formulario = ({ aoCadastrar, secoes, aoCriarSecao }) => {
                 />
                 <Botao texto="Criar Card"/>
             </form>
-                        <form className="formulario" onSubmit={(evento) => {
+                        <form onSubmit={(evento) => {
                 evento.preventDefault()
                 aoCriarSecao({ nome: nomeTime, cor: corTime })
             }}>
