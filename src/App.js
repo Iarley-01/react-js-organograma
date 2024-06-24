@@ -58,7 +58,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Kumiko Oumae',
-      instrumento: 'Eufonio',
+      instrumento: 'Eufônio',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/6/68/Kumiko_Oumae.jpg',
       secao: secoes[0].nome
     },
@@ -66,7 +66,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Asuka Tanaka',
-      instrumento: 'Eufonio',
+      instrumento: 'Eufônio',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/b/bb/Asuka_Tanaka.jpg',
       secao: secoes[0].nome
     },
@@ -74,7 +74,7 @@ function App() {
       id: uuidv4(),
       favorito: false,
       nome: 'Natsuki Nakagawa',
-      instrumento: 'Eufonio',
+      instrumento: 'Eufônio',
       imagem: 'https://static.wikia.nocookie.net/hibike-euphonium/images/d/d6/Natsuki_Nakagawa.jpg',
       secao: secoes[0].nome
     },
